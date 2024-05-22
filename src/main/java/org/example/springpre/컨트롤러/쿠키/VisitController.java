@@ -1,4 +1,4 @@
-package org.example.springpre.컨트롤러;
+package org.example.springpre.컨트롤러.쿠키;
 
 
 import jakarta.servlet.http.Cookie;
