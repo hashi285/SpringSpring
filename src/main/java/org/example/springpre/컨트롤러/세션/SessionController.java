@@ -27,9 +27,16 @@ public class SessionController {
     @GetMapping("resetVisit")
     public String resetVisit(SessionStatus status){
     //세션객체 전체 삭제
-        status.setComplete();
+        status.setComplete();//?
         return "redirect:/visit2";
     }
+
+
+
+
+
+
+
 //
 //    @GetMapping("resetVisit")
 //    public String resetVisit(HttpSession session){
